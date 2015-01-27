@@ -46,8 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="INotesGenerator.cs" />
+    <Compile Include="ITimbreGenerator.cs" />
+    <Compile Include="ScaleGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SawtoothTimbreGenerator.cs" />
+    <Compile Include="SignalGenerator.cs" />
+    <Compile Include="SineTimbreGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
